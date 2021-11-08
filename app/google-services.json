@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000694814914",
+    "project_id": "yellowbasket-a6545",
+    "storage_bucket": "yellowbasket-a6545.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000694814914:android:b6f9bd558e89ca0b19835b",
+        "android_client_info": {
+          "package_name": "com.js.YellowBasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000694814914-hfpvirbirssnho857dqlqj3c2slq1e70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTVsiHGQlGCvQ1w1ygsS1Mfr1q-NxOfYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000694814914-hfpvirbirssnho857dqlqj3c2slq1e70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
