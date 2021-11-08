@@ -40,7 +40,7 @@ public class WishListFragment extends Fragment {
         });
         webView.setWebViewClient(new WishListFragment.WebViewClient());
 
-        webView.loadUrl("http://nameit003.tykim0721.gethompy.com/mypage/wishlist.php");
+        webView.loadUrl("http://nameit003.tykim0721.gethompy.com/mypage/");
 
         return view;
 

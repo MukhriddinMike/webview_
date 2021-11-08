@@ -109,7 +109,7 @@ public class HomeFragment extends Fragment {
 //            }
 //        });
 
-        webView.loadUrl("");
+        webView.loadUrl("http://nameit003.tykim0721.gethompy.com/");
 
         return view;
     }

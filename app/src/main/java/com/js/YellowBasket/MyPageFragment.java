@@ -31,7 +31,7 @@ public class MyPageFragment extends Fragment {
         WebView webView = (WebView) view.findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDomStorageEnabled(true);
-        webView.getSettings().setJavaScriptCanOpenWindowsAutomatically (false);
+        webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
         webView.setWebChromeClient(new WebChromeClient() {
             @Override
             public boolean onJsAlert(WebView view, String url, String message, JsResult result) {

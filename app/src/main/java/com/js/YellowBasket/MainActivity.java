@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId())
                 {
                     case R.id.accessibility_custom_action_1:
-                        viewPager.setCurrentItem(1);
+                        viewPager.setCurrentItem(0);
                         break;
                     case R.id.accessibility_custom_action_2:
-                        viewPager.setCurrentItem(2);
+                        viewPager.setCurrentItem(1);
                         break;
                     case R.id.accessibility_custom_action_3:
-                        viewPager.setCurrentItem(3);
+                        viewPager.setCurrentItem(2);
                         break;
                     case R.id.accessibility_custom_action_4:
-                        viewPager.setCurrentItem(4);
+                        viewPager.setCurrentItem(3);
                         break;
                 }
                 return true;
