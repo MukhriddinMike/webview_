@@ -16,6 +16,7 @@ import com.google.firebase.messaging.RemoteMessage;
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
+
     public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
         String title = remoteMessage.getNotification().getTitle();
         String text = remoteMessage.getNotification().getBody();

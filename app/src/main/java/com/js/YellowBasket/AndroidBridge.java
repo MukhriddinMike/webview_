@@ -1,8 +1,8 @@
 package com.js.YellowBasket;
 
 
-class CustomBridge {
-//    private DomesticFragment mContext;
+//class CustomBridge {
+//
 //    private WebView mWebView;
 //    private Handler mHandler;
 //
@@ -24,6 +24,6 @@ class CustomBridge {
 //
 //
 //    }
-
-
-}
+//
+//
+//}
