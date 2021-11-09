@@ -109,7 +109,7 @@ public class HomeFragment extends Fragment {
 //            }
 //        });
 
-        webView.loadUrl("http://nameit003.tykim0721.gethompy.com/");
+        webView.loadUrl("https://joolwang.com/");
 
         return view;
     }
@@ -288,15 +288,6 @@ public class HomeFragment extends Fragment {
 
         }
 
-//        @Override
-//        public void onLoadResource(WebView view, String url) {
-//
-//            //이곳에 코딩해야 웹뷰 실행시에 작동함.(혹은 버튼)
-//            view.loadUrl("https://mpstation.kr/main/joinauth_pop.php,javascript:submitApp()");
-//
-//            //웹에있는 androidCall()이라는 함수를 호출함.
-//            super.onLoadResource(view, url);
-//        }
 
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {

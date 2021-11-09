@@ -40,7 +40,7 @@ public class MarketFragment extends Fragment {
         });
         webView.setWebViewClient(new MarketFragment.WebViewClient());
 
-        webView.loadUrl("http://nameit003.tykim0721.gethompy.com/shop/list.php");
+        webView.loadUrl("https://joolwang.com/request");
 
         return view;
 

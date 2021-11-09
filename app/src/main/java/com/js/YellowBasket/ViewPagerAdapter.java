@@ -19,8 +19,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
             case 1:
                 return new MarketFragment();
             case 2:
-                return new WishListFragment();
-            case 3:
                 return new MyPageFragment();
             default:
                 return new HomeFragment();
@@ -32,6 +30,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return 3;
     }
 }

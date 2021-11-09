@@ -41,7 +41,7 @@ public class MyPageFragment extends Fragment {
 
         webView.setWebViewClient(new MyPageFragment.WebViewClient());
 
-        webView.loadUrl("http://nameit003.tykim0721.gethompy.com/mypage/");
+        webView.loadUrl("https://joolwang.com/user/profile");
 
         return view;
 

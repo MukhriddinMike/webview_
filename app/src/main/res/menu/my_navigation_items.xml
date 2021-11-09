@@ -5,19 +5,19 @@
 <!--            android:icon="@drawable/bottom_ic_2"-->
 <!--            />-->
         <item android:id="@+id/accessibility_custom_action_1"
-            android:title="홈"
+            android:title="메인 페이지"
             android:icon="@drawable/ic_icon_4"
             />
         <item android:id="@+id/accessibility_custom_action_2"
-            android:title="마켓"
+            android:title="요청하기"
             android:icon="@drawable/ic_icon_2"
             />
         <item android:id="@+id/accessibility_custom_action_3"
-            android:title="찜"
+            android:title="내정보"
             android:icon="@drawable/ic_icon_1"
             />
-        <item android:id="@+id/accessibility_custom_action_4"
-            android:title="내정보"
-            android:icon="@drawable/ic_icon_3"
-            />
+<!--        <item android:id="@+id/accessibility_custom_action_4"-->
+<!--            android:title="내정보"-->
+<!--            android:icon="@drawable/ic_icon_3"-->
+<!--            />-->
 </menu>

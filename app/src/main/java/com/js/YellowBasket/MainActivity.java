@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.accessibility_custom_action_3:
                         viewPager.setCurrentItem(2);
                         break;
-                    case R.id.accessibility_custom_action_4:
-                        viewPager.setCurrentItem(3);
-                        break;
                 }
                 return true;
             });
@@ -63,9 +60,6 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 2:
                     bottom_navigation.getMenu().findItem(R.id.accessibility_custom_action_3).setChecked(true);
-                    break;
-                case 3:
-                    bottom_navigation.getMenu().findItem(R.id.accessibility_custom_action_4).setChecked(true);
                     break;
             }
             }
